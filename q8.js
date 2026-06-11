@@ -1,5 +1,5 @@
 function remove_spaces(){
-   let s = prompt("enter the string : ")
+   let s = prompt("enter the string : ").trim()
    let removed = ""
    let arr = s.split(" ")
    for(let i of arr){
